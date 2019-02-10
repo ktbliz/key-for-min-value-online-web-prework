@@ -8,8 +8,12 @@ def key_for_min_value(name_hash)
       value2 
     end
     
-    if value <= 
-      return key 
+    array2 = array.collect do |x|
+      if value <= x 
+        x = true 
+      else 
+        x = false 
+      end
     end 
   
   
