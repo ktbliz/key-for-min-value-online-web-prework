@@ -16,6 +16,12 @@ def key_for_min_value(name_hash)
       end
     end 
   
+  if array2.include?(false)
+    "Nope"
+  else 
+    return key 
+  end 
+    
   
   end 
 end
